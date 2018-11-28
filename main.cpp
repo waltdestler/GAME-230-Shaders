@@ -74,6 +74,5 @@ void render_frame()
 	window.clear(Color::Black);
 
 	shader.setUniform("texture", tex);
-	shader.setUniform("total_time", total_time);
 	window.draw(shape, &shader);
 }
