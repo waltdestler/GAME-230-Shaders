@@ -28,7 +28,8 @@ int main()
 	shader.loadFromFile("vertex_shader.vert", "fragment_shader.frag");
 
 	shape.setSize(Vector2f(300, 300));
-	shape.setPosition(50, 50);
+	shape.setOrigin(150, 150);
+	shape.setPosition(400, 300);
 	shape.setTexture(&tex);
 
 	Clock clock;
