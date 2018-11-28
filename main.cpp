@@ -68,6 +68,9 @@ void update_state(float dt)
 		pos.y += 200 * dt;
 
 	shape.setPosition(pos);
+
+	if (Keyboard::isKeyPressed(Keyboard::Space))
+		total_time = 0;
 }
 
 void render_frame()
